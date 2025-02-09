@@ -2,6 +2,7 @@
   "name": "terminal-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://assiljaby.github.io/portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -9,7 +10,8 @@
     "lint": "eslint .",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "pnpm build",
+    "ghpages" : "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
