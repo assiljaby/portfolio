@@ -40,7 +40,7 @@ const Welcome: React.FC = () => {
           `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Portfolio started in 23ms. (Version 1.3.0)</div>
+        <div>Portfolio started in 23ms. (Version 1.4.1)</div>
         <Seperator>----</Seperator>
         <div>
           You can find more about what I do in my{" "}

@@ -34,7 +34,7 @@ const projects = [
       id: 2,
       title: "Audio Speech Signal Analysis for Early Autism Spectrum Disorder Detection",
       desc: "Innovative deep learning approach using Swin transformer of 3 billion parameters and CNN trained on 1000+ audio samples to detect Autism Spectrum Disorder, oﬀering a screening tool with an accuracy of over 90% in distinguishing ASD from typically developing children.",
-      url: "https://github.com/assiljaby/trafic-toll-calculator",
+      url: "https://ieeexplore.ieee.org/document/10296783",
     },
   ];
 
