@@ -14,6 +14,7 @@ import Themes from "./commands/Themes";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
+import LastUpdated from "./commands/LastUpdated";
 
 type Props = {
   index: number;
@@ -48,6 +49,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           themes: <Themes />,
           welcome: <Welcome />,
           whoami: <GeneralOutput>guest</GeneralOutput>,
+          "last-updated": <LastUpdated />
         }[cmd]
       }
     </OutputContainer>

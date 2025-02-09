@@ -143,10 +143,10 @@ export const argTab = (
   // 8) if input is 'projects go '
   else if (_.startsWith(inputVal, "projects go ")) {
     [
-      "1.Look in helper functions",
-      "2.",
-      "3.",
-      "4.",
+      "Please",
+      "Insert",
+      "A Valid number",
+      "After `projects go`",
     ].forEach(t => {
       hintsCmds = [...hintsCmds, t];
     });
