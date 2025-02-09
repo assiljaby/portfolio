@@ -15,6 +15,7 @@ import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
 import LastUpdated from "./commands/LastUpdated";
+import Skills from "./commands/Skills";
 
 type Props = {
   index: number;
@@ -49,7 +50,8 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           themes: <Themes />,
           welcome: <Welcome />,
           whoami: <GeneralOutput>guest</GeneralOutput>,
-          "last-updated": <LastUpdated />
+          "last-updated": <LastUpdated />,
+          skills: <Skills />
         }[cmd]
       }
     </OutputContainer>
