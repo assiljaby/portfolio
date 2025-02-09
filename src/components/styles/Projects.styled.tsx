@@ -14,6 +14,8 @@ export const ProjectsIntro = styled.div`
 export const ProjectTitle = styled.div`
   font-weight: 700;
   margin-bottom: 0.25rem;
+  max-width: 500px;
+  text-align: justify;
 `;
 
 export const ProjectDesc = styled.div`

@@ -16,6 +16,7 @@ import { termContext } from "./Terminal";
 import { useContext } from "react";
 import LastUpdated from "./commands/LastUpdated";
 import Skills from "./commands/Skills";
+import Publications from "./commands/Publications";
 
 type Props = {
   index: number;
@@ -51,7 +52,8 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           welcome: <Welcome />,
           whoami: <GeneralOutput>guest</GeneralOutput>,
           "last-updated": <LastUpdated />,
-          skills: <Skills />
+          skills: <Skills />,
+          publications: <Publications />,
         }[cmd]
       }
     </OutputContainer>
